@@ -1,0 +1,28 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  .slider {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    .slider-item {
+      width: 100%;
+    }
+    .fas {
+      font-size: 40px;
+      color: black;
+      cursor: pointer;
+    }
+    .fa-chevron-left {
+      position: absolute;
+      top: 250px;
+      left: 20px;
+    }
+    .fa-chevron-right {
+      position: absolute;
+      top: 250px;
+      right: 20px;
+    }
+  }
+}

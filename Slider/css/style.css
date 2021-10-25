@@ -1,0 +1,36 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container .slider {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .slider .slider-item {
+  width: 100%;
+}
+
+.container .slider .fas {
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+}
+
+.container .slider .fa-chevron-left {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+
+.container .slider .fa-chevron-right {
+  position: absolute;
+  top: 250px;
+  right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
